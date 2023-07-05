@@ -3,4 +3,4 @@ Precio_dolar = 500
 
 Cantidad = Cantidad_de_plata / Precio_dolar
 
-print(Cantidad)
+print("con", Cantidad_de_plata, "pesos se podrian comprar ", Cantidad, "de dolares")
