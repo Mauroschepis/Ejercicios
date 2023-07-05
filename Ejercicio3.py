@@ -2,7 +2,7 @@ Nota1 = float(input("Ingrese la primera nota: "))
 
 Nota2 = float(input("Ingrese la segunda nota: "))
 
-Nota3 = float(input("Ingrese la tercera nota: "))
+Nota3 = float(input("Ingrese la tercer nota: "))
 
 Suma_notas = Nota1 + Nota2 + Nota3
 
