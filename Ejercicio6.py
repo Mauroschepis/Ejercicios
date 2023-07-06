@@ -1,5 +1,5 @@
-Cuenta = float(input("Ingrese la cuenta: "))
-Porcentaje_propina = float(input("Ingrese el porcentaje de: ")) 
+Cuenta = float(input("Ingrese la Cuenta de Consumo en el Restaurant: "))
+Porcentaje_propina = float(input("Ingrese el porcentaje de Propina: ")) 
 
 Propina = Cuenta * Porcentaje_propina / 100
 
