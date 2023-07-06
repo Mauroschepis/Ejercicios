@@ -1,8 +1,8 @@
 Cuenta = float(input("Ingrese la cuenta: "))
-Porcentaje_propina = float(input("Ingrese el porcentaje de: "))
+Porcentaje_propina = float(input("Ingrese el porcentaje de: ")) 
 
 Propina = Cuenta * Porcentaje_propina / 100
 
-print("Se debera pagar ", Propina)
+print("Se debera pagar", Propina, "de propina")
 
 print("En total se pagara", Cuenta + Propina)
