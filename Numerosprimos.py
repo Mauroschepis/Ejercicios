@@ -12,6 +12,6 @@ for i in range(1,1001):
     if primo==True:
         print(i,"es primo") 
         Contador=Contador+1
-    print("entre",minimo, "y", maximo, "hay",Contador,"numeros primos")       
+print("entre",minimo, "y", maximo, "hay",Contador,"numeros primos")       
         
 
