@@ -11,5 +11,5 @@ while (c<0) or (i<=0) or (i>=100) or (m<=0):
     print(c, i ,m)
 for i in range(m):
  c=c*(1+i/100)
-
+# 
 print("tienes",c,"pesos")
