@@ -8,7 +8,7 @@ for i in range(1,1001):
         if i%j==0:
             primo=False
         else:
-            j==j+1
+            j=j+1
     if primo==True:
         print(i,"es primo") 
         Contador=Contador+1
