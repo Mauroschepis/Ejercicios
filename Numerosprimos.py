@@ -1,7 +1,7 @@
 Contador=0
 minimo=1
-maximo=1001
-for i in range(1,1001):
+maximo=1000
+for i in range(minimo,maximo):
     primo=True
     j=2
     while i>j and primo==True:
