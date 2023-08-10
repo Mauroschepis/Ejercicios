@@ -8,3 +8,4 @@ while N>0:
             suma=suma+i
     suma=suma+N
     print("la suma de lsos divisores del numero es", suma)
+    N= int (input("ingre numero"))
