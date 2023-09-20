@@ -13,10 +13,10 @@ class AhorcadoApp:
         self.intentos = 0
         self.letras_adivinadas = set()
 
-        self.label_palabra = tk.Label(root, text="Palabra: " + "_ " * len(self.palabra_oculta))
+        self.label_palabra = tk.Label(root, text="Palabra: " + "_ " * len(self.palabra_oculta),background=("pink"))
         self.label_palabra.pack()
 
-        self.label_intentos = tk.Label(root, text=f"Intentos restantes: {self.intentos_maximos - self.intentos}")
+        self.label_intentos = tk.Label(root, text=f"Intentos restantes: {self.intentos_maximos - self.intentos}",background=("blue"))
         self.label_intentos.pack()
 
         self.entry_letra = tk.Entry(root)
@@ -70,7 +70,7 @@ class AhorcadoApp:
             "    __\n   |    |\n   |    O\n   |   /|\\\n   |   / \n___|___",
             "    __\n   |    |\n   |    O\n   |   /|\\\n   |   / \\\n___|___"
         ]
-        self.label_ahorcado.config(text="".join(""))
+        self.label_ahorcado.config(text="".join,background=("red"))
         self.label_ahorcado.pack()
         
         ahorcado = partes_ahorcado[:self.intentos + 1]
