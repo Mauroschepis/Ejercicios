@@ -37,6 +37,7 @@ class AhorcadoApp:
                 self.letras_adivinadas.add(letra)
                 self.actualizar_palabra()
             else:
+                 self.letras_adivinadas.add(letra)
                 self.intentos += 1
                 self.actualizar_ahorcado()
             self.actualizar_intentos_restantes()
